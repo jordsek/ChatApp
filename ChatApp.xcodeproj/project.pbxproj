@@ -16,6 +16,8 @@
 		0375AD2F2BD13A8100FF1C69 /* ChatAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0375AD2E2BD13A8100FF1C69 /* ChatAppUITestsLaunchTests.swift */; };
 		0375AD3E2BD13AE100FF1C69 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0375AD3D2BD13AE100FF1C69 /* TabBarView.swift */; };
 		0375AD412BD1431500FF1C69 /* InboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0375AD402BD1431500FF1C69 /* InboxView.swift */; };
+		0375AD462BD1580200FF1C69 /* NavigationBarColorModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0375AD452BD1580200FF1C69 /* NavigationBarColorModifier.swift */; };
+		0375AD482BD15FF500FF1C69 /* InboxRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0375AD472BD15FF500FF1C69 /* InboxRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		0375AD2E2BD13A8100FF1C69 /* ChatAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0375AD3D2BD13AE100FF1C69 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		0375AD402BD1431500FF1C69 /* InboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxView.swift; sourceTree = "<group>"; };
+		0375AD452BD1580200FF1C69 /* NavigationBarColorModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarColorModifier.swift; sourceTree = "<group>"; };
+		0375AD472BD15FF500FF1C69 /* InboxRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,7 @@
 		0375AD102BD13A8000FF1C69 /* ChatApp */ = {
 			isa = PBXGroup;
 			children = (
+				0375AD442BD1575400FF1C69 /* Modifiers */,
 				0375AD3C2BD13AB600FF1C69 /* View */,
 				0375AD3B2BD13AA900FF1C69 /* App */,
 				0375AD152BD13A8100FF1C69 /* Assets.xcassets */,
@@ -154,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				0375AD402BD1431500FF1C69 /* InboxView.swift */,
+				0375AD472BD15FF500FF1C69 /* InboxRowView.swift */,
 			);
 			path = Inbox;
 			sourceTree = "<group>";
@@ -163,6 +169,14 @@
 			children = (
 			);
 			path = TabBar;
+			sourceTree = "<group>";
+		};
+		0375AD442BD1575400FF1C69 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				0375AD452BD1580200FF1C69 /* NavigationBarColorModifier.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,9 +309,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0375AD462BD1580200FF1C69 /* NavigationBarColorModifier.swift in Sources */,
 				0375AD142BD13A8000FF1C69 /* ContentView.swift in Sources */,
 				0375AD412BD1431500FF1C69 /* InboxView.swift in Sources */,
 				0375AD3E2BD13AE100FF1C69 /* TabBarView.swift in Sources */,
+				0375AD482BD15FF500FF1C69 /* InboxRowView.swift in Sources */,
 				0375AD122BD13A8000FF1C69 /* ChatAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -33,6 +33,8 @@ struct InboxView: View {
                     Text("Chat")
                         .font(.title2)
                         .fontWeight(.semibold)
+                        .foregroundStyle(.white)
+                        .navigationBarColor(backgroundColor: Color.gray)
                 }
                 
                 ToolbarItem(placement: .topBarTrailing){
@@ -41,6 +43,7 @@ struct InboxView: View {
                         Image(systemName: "magnifyingglass")
                     }
                     .fontWeight(.semibold)
+                    .foregroundStyle(.white)
                 }
             }
         }
